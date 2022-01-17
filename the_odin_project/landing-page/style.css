@@ -22,3 +22,16 @@ a {
 a.link1 {
     margin-left: auto;
 }
+
+.hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.textbox {
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
