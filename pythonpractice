@@ -1,0 +1,5 @@
+#design a calculator
+
+x = input()
+
+print(x)
