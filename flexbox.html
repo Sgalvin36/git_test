@@ -6,38 +6,91 @@
         <meta name="viewport" content="width=device-width, initial scale=1">
 
         <style>
+            
+            * { margin: 0; padding: 0;}
+            header { background: rgba(0,0,0,.25); display:flex; justify-content: space-between; margin-bottom: 10px;}
+                #logo {width:100px; height: 50px; background: rgba(0,0,0,.25);}
+                nav {background: rgba(0,0,0,.25);}
+                    nav ul li {display: inline; }
 
-            #parent { background: lightblue; padding: 10px; display:flex; flex-flow: row nowrap; }
-            .childitem { flex-basis: 300px; }
-            .child1 {background: cornflowerblue; }
-            .child2 {background: deepskyblue;}
-            .child3 {background: dodgerblue;}
-        <!-- .child4 {background: khaki;}
-            .child5 {background: orange;}
-            .child6 {background: gold;}
-            .child7 {background: darkgreen;}
-            .child8 {background: darkolivegreen;}
-            .child9 {background: forestgreen;}
-        -->
+            #hero { background: rgba(0,0,0,.25); display:flex;justify-content: center; margin-bottom: 10px;}
+                .herographic {background: rgba(0,0,0,.25);}
+                    .herographic img {width:100%; }
+                .herocombo {display:flex; flex-direction: column; justify-content: center;}
+                    .heroheading {margin: 0 0 10px 10px;}
+                    .herobutton {background: rgba(0,0,0,.25); width: 50%; text-align: center; border-radius: 10px; 
+                    padding: 10px; margin: 0 auto;}
+
+            #articles {display:flex; justify-content: center; margin-bottom: 10px;}
+                    .articlecontainer {background: rgba(0,0,0,.25); width: 300px; margin: 0 1em;}
+                        .articlecontainer img {width: 100%;}
+            footer { background: rgba(0,0,0,.25); height:50px; text-align: center;}
+                    footer nav {background: none;}
+
+        
         </style>
 
     </head>
 
     <body>
 
-        <div id="parent">
+        <header>
+            
+            <div id="logo"><img src="https://via.placeholder.com/100x50"></div>
 
-            <div class="childitem child1">1</div>
-            <div class="childitem child2">2</div>
-            <div class="childitem child3">3</div>
-        <!-- <div class="childitem child4">4</div>
-            <div class="childitem child5">5</div>
-            <div class="childitem child6">6</div>
-            <div class="childitem child7">7</div>
-            <div class="childitem child8">8</div>
-            <div class="childitem child9">9</div>
-        -->
+            <nav>
+                <ul>
+                    <li><a href="#">Menu Item</a></li>
+                    <li><a href="#">Menu Item</a></li>
+                    <li><a href="#">Menu Item</a></li>
+                </ul>
+            </nav>
 
-        </div>
+        </header>
+
+        <section id="hero">
+            
+            <div class="herographic"><img src="https://via.placeholder.com/500x500"></div>
+
+            <div class="herocombo">
+                <div class="heroheading"><h1>"Sed ut perspiciatis unde omnis iste natus</h1></div>
+                <div class="herobutton">Call to action</div>
+            </div>
+       
+        </section>
+
+        <section id="articles">
+            
+            <div class="articlecontainer"> 
+                <img src="https://via.placeholder.com/300x200">
+                <h2>Article One</h2>
+                <p>For all have sinned and fall short of the glory of God.</p>
+            </div>
+            
+            <div class="articlecontainer">                 
+                <img src="https://via.placeholder.com/300x200">
+                <h2>Article Two</h2>
+                <p>For all have sinned and fall short of the glory of God.</p>
+            </div>
+
+            <div class="articlecontainer">                
+                <img src="https://via.placeholder.com/300x200">
+                <h2>Article Three</h2>
+                <p>For all have sinned and fall short of the glory of God.</p>
+            </div>
+        
+        </section>
+
+        <footer>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Menu Item</a></li>
+                    <li><a href="#">Menu Item</a></li>
+                    <li><a href="#">Menu Item</a></li>
+                </ul>
+            </nav>
+
+        </footer>
     </body>
 </html>
