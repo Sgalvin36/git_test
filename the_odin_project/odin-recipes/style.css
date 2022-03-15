@@ -1,0 +1,23 @@
+div {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: red;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+body {
+    width: auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: palegoldenrod;
+    background-color: royalblue;
+    text-align: center;
+}
